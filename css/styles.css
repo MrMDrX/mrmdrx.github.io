@@ -133,6 +133,7 @@ ul {
 }
 
 a {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -532,7 +533,7 @@ img {
   width: 70%;
 }
 .skills__js {
-  width: 60%;
+  width: 75%;
 }
 .skills__php {
   width: 80%;
@@ -543,24 +544,27 @@ img {
 .skills__c {
   width: 75%;
 }
+.skills__matlab {
+  width: 80%;
+}
 .skills__python {
-  width: 60%;
+  width: 80%;
 }
 .skills__flutter {
   width: 75%;
 }
 .skills__node {
-  width: 60%;
+  width: 80%;
 }
 .skills__express {
-  width: 60%;
+  width: 80%;
 }
-.skills__flutter {
-  width: 65%;
+.skills__react {
+  width: 70%;
 }
-.skills__react{
-  width: 65%;
- }
+.skills__laravel {
+  width: 75%;
+}
 .skills__bootstrap {
   width: 85%;
 }
@@ -570,8 +574,17 @@ img {
 .skills__sql {
   width: 80%;
 }
+.skills__sqllite {
+  width: 80%;
+}
 .skills__mongodb {
   width: 75%;
+}
+.skills__sqlite {
+  width: 80%;
+}
+.skills__oracle {
+  width: 70%;
 }
 .skills__git {
   width: 80%;
@@ -582,8 +595,20 @@ img {
 .skills__intellij {
   width: 75%;
 }
-.skills__linux {
+.skills__androidstd {
   width: 75%;
+}
+.skills__linux {
+  width: 85%;
+}
+.skills__prob {
+  width: 85%;
+}
+.skill70 {
+  width: 70%;
+}
+.skill80 {
+  width: 80%;
 }
 
 .skills__close .skills__list {
