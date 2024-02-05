@@ -48,7 +48,7 @@
             </li>
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Portfolio
+                <i class="uil uil-scenery nav__icon"></i>Projects
               </a>
             </li>
             <li class="nav__item">
@@ -100,6 +100,14 @@
                 class="home__social-icon"
               >
                 <i class="uil uil-telegram-alt"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/MrMed0X"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-twitter-alt"></i>
               </a>
             </div>
 
@@ -206,6 +214,7 @@
               download=""
               href="pdf/CV_Med0X_fr.pdf"
               class="button button--flex"
+              target="_blank"
             >
               Download CV<i class="uil uil-download-alt button__icon"></i>
             </a>
@@ -1154,9 +1163,9 @@
         </div>
       </section>
 
-      <!--==================== PORTFOLIO ====================-->
+      <!--==================== PROJECTS ====================-->
       <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Portfolio</h2>
+        <h2 class="section__title">Projects</h2>
         <span class="section__subtitle">Most recent work</span>
 
         <div class="portfolio__container container swiper-container">
@@ -1266,114 +1275,6 @@
         </div>
       </section>
 
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
-      <h2 class="section__title">Testimonial</h2>
-      <span class="section__subtitle">My clients saying</span>
-      <div class="testimonial__container container swiper-container">
-        <div class="swiper-wrapper">
-          <!--==================== TESTIMONIAL 1 ====================-->
-          <div class="testimonial__content swiper-slide">
-            <div class="testimonial__data">
-              <div class="testimonial__header">
-                <img
-                  src="img/testimonial1.jpg"
-                  alt="Testimonial profile 1"
-                  class="testimonial__img"
-                />
-
-                <div>
-                  <h3 class="testimonial__name">Sara Smith</h3>
-                  <span class="testimonial__client">Client</span>
-                </div>
-              </div>
-
-              <div>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-              </div>
-            </div>
-
-            <p class="testimonial__description">
-              I got a good impression, I carry out my project with all the
-              possible quality and attention and support 24 hours a day.
-            </p>
-          </div>
-
-          <!--==================== TESTIMONIAL 2 ====================-->
-          <div class="testimonial__content swiper-slide">
-            <div class="testimonial__data">
-              <div class="testimonial__header">
-                <img
-                  src="img/testimonial2.jpg"
-                  alt="Testimonial profile 1"
-                  class="testimonial__img"
-                />
-
-                <div>
-                  <h3 class="testimonial__name">Matt Robinson</h3>
-                  <span class="testimonial__client">Client</span>
-                </div>
-              </div>
-
-              <div>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-              </div>
-            </div>
-
-            <p class="testimonial__description">
-              Mohamed Eddahby is a true professional in their field. Their
-              data-driven insights and software solutions transformed our
-              business operations. Their dedication and skillset are unmatched.
-              Highly recommend!
-            </p>
-          </div>
-
-          <!--==================== TESTIMONIAL 3 ====================-->
-          <div class="testimonial__content swiper-slide">
-            <div class="testimonial__data">
-              <div class="testimonial__header">
-                <img
-                  src="img/testimonial3.jpg"
-                  alt="Testimonial profile 1"
-                  class="testimonial__img"
-                />
-
-                <div>
-                  <h3 class="testimonial__name">John Harris</h3>
-                  <span class="testimonial__client">Client</span>
-                </div>
-              </div>
-
-              <div>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-                <i class="uil uil-star testimonial__icon-star"></i>
-              </div>
-            </div>
-
-            <p class="testimonial__description">
-              We were fortunate to collaborate with Mohamed Eddahby on a
-              critical project. Their problem-solving abilities and technical
-              prowess were invaluable. Thanks to them, we now have a powerful
-              data-driven tool that has revolutionized our decision-making
-              process.
-            </p>
-          </div>
-        </div>
-
-        <div class="swiper-pagination swiper-pagination-testimonial"></div>
-      </div>
-
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
         <h2 class="section__title">Contact Me</h2>
@@ -1415,7 +1316,11 @@
             </div>
           </div>
 
-          <form action="" class="contact__form grid">
+          <form
+            action="mailto:mo.eddahby@gmail.com"
+            enctype="text/plain"
+            class="contact__form grid"
+          >
             <div class="contact__content">
               <label for="" class="contact__label">Name</label>
               <input type="text" class="contact__input" />
@@ -1442,7 +1347,7 @@
             </div>
 
             <div>
-              <a href="" class="button button--flex">
+              <a href="mailto:mo.eddahby@gmail.com" class="button button--flex">
                 Send Message
                 <i class="uil uil-message button__icon"></i>
               </a>
@@ -1491,23 +1396,15 @@
             </a>
 
             <a
-              href="https://www.facebook.com"
+              href="https://www.linkedin.com/in/med0x/"
               target="_blank"
               class="footer__social"
             >
-              <i class="uil uil-facebook-f"></i>
+              <i class="uil uil-linkedin-alt"></i>
             </a>
 
             <a
-              href="https://www.instagram.com"
-              target="_blank"
-              class="footer__social"
-            >
-              <i class="uil uil-instagram"></i>
-            </a>
-
-            <a
-              href="https://www.twitter.com"
+              href="https://twitter.com/MrMed0X"
               target="_blank"
               class="footer__social"
             >
